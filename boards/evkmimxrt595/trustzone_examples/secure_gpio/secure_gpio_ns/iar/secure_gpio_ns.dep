@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>999531897</fileChecksum>
+    <configuration>
+        <name>debug</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>flash_debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_cache.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_common_arm.c</file>
+            <file>$PROJ_DIR$\..\pin_mux.c</file>
+            <file>$PROJ_DIR$\..\secure_gpio_ns.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\utilities\debug_console_lite\fsl_debug_console.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\utilities\str\fsl_str.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\utilities\debug_console_lite\fsl_assert.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_clock.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_power.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_flexspi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_reset.c</file>
+            <file>$PROJ_DIR$\..\clock_config.c</file>
+            <file>$PROJ_DIR$\..\board.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_common.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\components\uart\fsl_adapter_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_flexcomm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\iar\startup_MIMXRT595S_cm33.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_iap.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\system_MIMXRT595S_cm33.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\components\lists\fsl_component_generic_list.c</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_gpio.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\source\secure_gpio_ns.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_clock.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\utilities\fsl_str.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\utilities\fsl_debug_console.o</file>
+            <file>$PROJ_DIR$\flash_debug\sdk20-app.bin</file>
+            <file>$PROJ_DIR$\flash_debug\obj\board\board.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_power.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\component\lists\fsl_component_generic_list.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_flexcomm.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_cache.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_common.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\device\system_MIMXRT595S_cm33.o</file>
+            <file>$PROJ_DIR$\flash_debug\secure_gpio_ns.out</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_iap.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_usart.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\startup\startup_MIMXRT595S_cm33.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\board\clock_config.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_reset.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_flexspi.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\board\pin_mux.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\utilities\fsl_assert.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_common_arm.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\component\uart\fsl_adapter_usart.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_cache.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_common_arm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\pin_mux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\secure_gpio_ns.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\utilities\debug_console_lite\fsl_debug_console.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\utilities\str\fsl_str.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\utilities\debug_console_lite\fsl_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_power.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_flexspi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_reset.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\components\uart\fsl_adapter_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_flexcomm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\iar\startup_MIMXRT595S_cm33.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_iap.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\system_MIMXRT595S_cm33.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\components\lists\fsl_component_generic_list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\flash_debug\secure_gpio_ns.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>flash_release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

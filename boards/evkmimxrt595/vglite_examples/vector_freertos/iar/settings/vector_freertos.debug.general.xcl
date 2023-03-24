@@ -1,0 +1,15 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm\bin\armPROC.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm\bin\armJLINK.dll" 
+
+"C:\WorkSpace\Documentation\SC1\NXP\SDKs\SDK_2_13_0_EVK-MIMXRT595\boards\evkmimxrt595\vglite_examples\vector_freertos\iar\debug\vector_freertos.out" 
+
+--plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm/config/debugger/NXP/iMXRT5xx_CortexM33.dmac" 
+
+--flash_loader="C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm/config/flashloader/NXP/FlashIMXRT500_MX25U.board" 
+
+
+
+

@@ -1,0 +1,15 @@
+Application/Project/MCUXpresso/IMXRT595-EVK-VGLite/BUILD/
+Application/Project/MCUXpresso/IMXRT595-EVK-VGLite/.settings/
+.project
+.vscode/
+boards/evkmimxrt595/display_examples/fbdev_freertos/iar/Debug/
+.metadata/
+tools/
+rtos/
+docs/
+CMSIS/
+*.md
+*.dtd
+*.png
+*.bat
+*.icf

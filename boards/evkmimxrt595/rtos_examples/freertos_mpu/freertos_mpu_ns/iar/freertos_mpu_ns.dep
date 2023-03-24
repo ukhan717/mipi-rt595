@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>1918253285</fileChecksum>
+    <configuration>
+        <name>debug</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>flash_debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\portable\IAR\ARM_CM33\non_secure\portasm.s</file>
+            <file>$PROJ_DIR$\..\main_ns_asm.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\portable\IAR\ARM_CM33\non_secure\port.c</file>
+            <file>$PROJ_DIR$\..\main_ns.c</file>
+            <file>$PROJ_DIR$\..\board.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\event_groups.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_clock.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\croutine.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\stream_buffer.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\queue.c</file>
+            <file>$PROJ_DIR$\..\clock_config.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\portable\Common\mpu_wrappers.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\list.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\tasks.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\portable\MemMang\heap_4.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\timers.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\components\lists\fsl_component_generic_list.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\utilities\str\fsl_str.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_power.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_iap.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_flexcomm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\components\uart\fsl_adapter_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_common.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\components\serial_manager\fsl_component_serial_manager.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_common_arm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\system_MIMXRT595S_cm33.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_flexspi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\utilities\debug_console\fsl_debug_console.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_reset.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_cache.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\utilities\fsl_assert.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\components\serial_manager\fsl_component_serial_port_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\iar\startup_MIMXRT595S_cm33.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_gpio.c</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_gpio.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\freertos\freertos-kernel\timers.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\freertos\freertos-kernel\list.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\freertos\freertos-kernel\queue.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\utilities\fsl_assert.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_flexcomm.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\component\serial_manager\fsl_component_serial_manager.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_flexspi.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\board\board.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\freertos\freertos-kernel\croutine.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\component\uart\fsl_adapter_usart.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\freertos\freertos-kernel\tasks.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\utilities\fsl_str.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\startup\startup_MIMXRT595S_cm33.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_clock.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\device\system_MIMXRT595S_cm33.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_cache.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_power.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_reset.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\component\lists\fsl_component_generic_list.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\freertos\freertos-kernel\event_groups.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_common_arm.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\component\serial_manager\fsl_component_serial_port_uart.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\board\clock_config.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_common.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\freertos\freertos-kernel\portable\MemMang\heap_4.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\freertos\freertos-kernel\portable\IAR\ARM_CM33\non_secure\portasm.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\source\main_ns.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\freertos\freertos-kernel\portable\IAR\ARM_CM33\non_secure\port.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_iap.o</file>
+            <file>$PROJ_DIR$\flash_debug\sdk20-app.bin</file>
+            <file>$PROJ_DIR$\flash_debug\obj\utilities\fsl_debug_console.o</file>
+            <file>$PROJ_DIR$\flash_debug\freertos_mpu_ns.out</file>
+            <file>$PROJ_DIR$\flash_debug\obj\drivers\fsl_usart.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\source\main_ns_asm.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\freertos\freertos-kernel\stream_buffer.o</file>
+            <file>$PROJ_DIR$\flash_debug\obj\freertos\freertos-kernel\portable\Common\mpu_wrappers.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\portable\IAR\ARM_CM33\non_secure\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\main_ns_asm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\portable\IAR\ARM_CM33\non_secure\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\main_ns.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\stream_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\portable\Common\mpu_wrappers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\portable\MemMang\heap_4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\rtos\freertos\freertos-kernel\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\components\lists\fsl_component_generic_list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\utilities\str\fsl_str.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_power.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_iap.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_flexcomm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\components\uart\fsl_adapter_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\components\serial_manager\fsl_component_serial_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_common_arm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\system_MIMXRT595S_cm33.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_flexspi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\utilities\debug_console\fsl_debug_console.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_reset.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_cache.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\utilities\fsl_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\components\serial_manager\fsl_component_serial_port_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\iar\startup_MIMXRT595S_cm33.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MIMXRT595S\drivers\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\flash_debug\freertos_mpu_ns.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>flash_release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
